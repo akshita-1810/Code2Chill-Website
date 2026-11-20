@@ -1,0 +1,39 @@
+
+import code2chillLogo from '../assets/code2chill-logo.png'
+import { Link } from 'react-router-dom'
+
+function Navbar() {
+  return (
+    <nav className="navbar">
+
+      <Link to="/" className="navbar-brand">
+        <img
+          src={code2chillLogo}
+          alt="Code2Chill Logo"
+          className="navbar-logo"
+        />
+
+        <span className="navbar-divider"></span>
+
+        <span className="brand-text">
+          <span className="brand-code">Code</span>
+          <span className="brand-chill">2Chill</span>
+        </span>
+      </Link>
+
+      <div className="navbar-links">
+        <Link to="/about">About</Link>
+        <Link to="/team">Team</Link>
+        <Link to="/events">Events</Link>
+        <a href="#projects">Projects</a>
+      </div>
+
+      <a href="#join" className="navbar-cta">
+        Join Club
+      </a>
+
+    </nav>
+  )
+}
+
+export default Navbar
