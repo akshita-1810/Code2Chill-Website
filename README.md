@@ -1,9 +1,10 @@
-# Code2Chill — Official Club Website
+# Code2Chill — Club Website
 
-A modern, interactive website for **Code2Chill**, the student-led technical club at Chitkara University.
+A website project being developed for **Code2Chill**, the student-led technical club at Chitkara University.
 
-The website aims to showcase the club's identity, introduce its team, highlight events, display student projects, and provide a platform for students interested in joining the community.
+The project aims to create a modern, interactive platform to showcase the club's identity, introduce its team, highlight events, display student projects, and provide information for students interested in joining the community.
 
+A student-developed website project for Code2Chill, the technical club at Chitkara University. Built using React and Vite, with plans for MERN stack integration.
 ---
 
 ## About Code2Chill
