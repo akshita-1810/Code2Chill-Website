@@ -25,7 +25,7 @@ function Navbar() {
         <Link to="/about">About</Link>
         <Link to="/team">Team</Link>
         <Link to="/events">Events</Link>
-        <a href="#projects">Projects</a>
+        <Link to="/projects">Projects</Link>
       </div>
 
       <a href="#join" className="navbar-cta">

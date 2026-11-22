@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Team from './pages/TeamPage'
 import EventsPage from './pages/EventsPage'
+import ProjectsPage from './pages/ProjectsPage'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/team" element={<Team />} />
         <Route path="/events" element={<EventsPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
       </Routes>
 
     </BrowserRouter>
