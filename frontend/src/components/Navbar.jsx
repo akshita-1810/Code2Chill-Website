@@ -28,9 +28,9 @@ function Navbar() {
         <Link to="/projects">Projects</Link>
       </div>
 
-      <a href="#join" className="navbar-cta">
-        Join Club
-      </a>
+      <Link to="/join" className="navbar-cta">
+  Join Club
+</Link>
 
     </nav>
   )

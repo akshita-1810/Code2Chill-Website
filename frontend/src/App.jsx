@@ -8,6 +8,7 @@ import About from './pages/About'
 import Team from './pages/TeamPage'
 import EventsPage from './pages/EventsPage'
 import ProjectsPage from './pages/ProjectsPage'
+import JoinPage from './pages/JoinPage'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/join" element={<JoinPage />} />
       </Routes>
 
     </BrowserRouter>
